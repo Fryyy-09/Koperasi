@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: white;
+    color: #333;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #021cff;
+  padding: 15px 40px;
+  color: white;
+}
+
+.navbar nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.navbar nav a:hover,
+.navbar nav a .active {
+    color: #ff0000;
+    text-decoration: underline;
+}
+
+.navbar h1 {
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.sec {
+    background: #004997;
+    color: white;
+    text-align: center;
+    padding: 120px 20px;
+}
+
+.text-aba p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.text-aba h2 {
+    font-size: 34px;
+    margin-bottom: 10px;
+}
+
+.btn-lihat {
+    background-color: #e6006b;
+    color: #ffffff;
+    padding: 12px 25px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-lihat:hover {
+    background-color: rgb(255, 80, 153);
+}
+
+.produk-page {
+    max-width: 1000px;
+  margin: 60px auto;
+  text-align: center;
+  padding: 0 20px;
+}
+
+footer {
+  background-color: #004997;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 505px;
+  font-size: 14px;
+}
