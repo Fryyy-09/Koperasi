@@ -55,7 +55,7 @@ body {
 }
 
 .btn-lihat {
-    background-color: #e6006b;
+    background-color: #ff0077;
     color: #ffffff;
     padding: 12px 25px;
     border-radius: 6px;
@@ -69,10 +69,49 @@ body {
 }
 
 .produk-page {
-    max-width: 1000px;
+  max-width: 1000px;
   margin: 60px auto;
   text-align: center;
   padding: 0 20px;
+}
+.produk-page h2 {
+  color: #2b6cb0;
+  margin-bottom: 30px;
+  font-size: 26px;
+}
+
+.produk-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  column-gap: 25px;
+  
+}
+
+.produk-card img {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  width: 180px;
+  height: auto;
+}
+
+.produk-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.btn {
+  display: inline-block;
+  background-color: #004997  ;
+  color: white;
+  padding: 8px 14px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
 }
 
 footer {
